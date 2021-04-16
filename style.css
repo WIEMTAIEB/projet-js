@@ -18,6 +18,11 @@ body {
 .navbar-toggler {
   outline: none !important;
 }
+.navbar-brand{
+  margin: 5px;
+
+  
+}
 .toggler-icon {
   font-size: 2.5rem;
   color: var(--mainPink);
@@ -31,13 +36,6 @@ body {
   color: var(--mainBlack);
 }
 /* end of nav links */
-/*................................................navbar*/
-.navbar-brand{
-  margin-top: 1px;
-  height: 200px;
-  width: 20px;
-}
-/*..................................................end*/
 /* info icons */
 .cart-info__icon {
   color: var(--mainBlack);
@@ -63,18 +61,17 @@ body {
 /* banner */
 
 .max-height {
- height: 500px;
+  min-height: calc(100vh - 76px);
   background: linear-gradient(var(--yellowTrans), var(--yellowTrans)),
-    url("../img/1548870617921.jpeg") center/cover fixed no-repeat;
+    url("../img/couv.jpeg") center/cover fixed no-repeat;
   position: relative;
-
 }
 .banner {
-  color: black;
+  color: var(--mainWhite);
   margin-top: -4rem;
 }
 .banner-title {
-  color: green;
+  color: var(--mainPink);
   font-size: 4rem;
 }
 .banner-link {
@@ -124,19 +121,19 @@ body {
 /* cart item */
 /* cart buttons */
 .btn-pink {
-  color: var(--mainPink) !important;
-  border-color: var(--mainPink) !important;
+  color: green!important;
+  border-color: green!important;
 }
 .btn-black {
-  color: var(--mainBlack) !important;
-  border-color: var(--mainBlack) !important;
+  color: green !important;
+  border-color: green!important;
 }
 .btn-black:hover {
-  color: var(--mainPink) !important;
-  background: var(--mainBlack) !important;
+  color: black !important;
+  background: white !important;
 }
 .btn-pink:hover {
-  background: var(--mainPink) !important;
+  background: white !important;
   color: var(--mainBlack) !important;
 }
 /* end of cart buttons */
@@ -260,8 +257,23 @@ body {
 }
 
 
-/* cc*/
-.flex-container{
+/*xxxxxxxxxxxxx*/
+#flex{
   display: flex;
-  flex-wrap: nowrap;
 }
+#flex > div{
+ 
+  margin: 10px;
+  padding: 20px;
+}
+
+.équipe img{
+  height: 300px;
+  width: 300px;
+
+
+}
+.équipe img{
+  border-radius: 100px;
+}    
+/*xxxxxxxxxxxxxxx*/
